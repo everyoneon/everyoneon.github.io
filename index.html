@@ -39,7 +39,6 @@
 
 	<script type="text/javascript" src="comcast_simple_2.js"></script>
 	<script type="text/javascript" src="cox_simple_2.js"></script>
-	<script type="text/javascript" src="sprint_simple_2.js"></script>
 	<script type="text/javascript" src="tmobile_simple_2.js"></script>
 	 
 </head>
@@ -127,11 +126,6 @@
 	 	}).addTo(map);
 
 	 	L.geoJson(comcastData, {
-	 		style: style,
-	 		onEachFeature: onEachFeature
-	 	}).addTo(map);
-
-	 	L.geoJson(sprintData, {
 	 		style: style,
 	 		onEachFeature: onEachFeature
 	 	}).addTo(map);
